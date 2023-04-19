@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = (event) => {
     return (
-        <button className="bg-primary px-6 text-white rounded-full transition duration-700 hover-scale-105">{event.children}</button>
+        <button className="bg-primary text-white px-8 py-2 rounded-full transition duration-300 hover:scale-105">{event.children}</button>
     );
 }
 
