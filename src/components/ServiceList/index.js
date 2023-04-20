@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import ServiceItem from "../ServiceItem";
+import CatShowerServiceItem from "../CatShowerServiceItem";
+import CatGroomingServiceItem from "../CatGroomingServiceItem";
+import CatVetServiceItem from "../CatVetServiceItem";
 
 const ServiceList = () => {
     const [categoriaTab, setCategoriaTab] = useState('Gato');
@@ -13,12 +15,9 @@ const ServiceList = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
-                <ServiceItem />
-                <ServiceItem />
-                <ServiceItem />
-                <ServiceItem />
-                <ServiceItem />
-                <ServiceItem />
+                <CatShowerServiceItem />
+                <CatGroomingServiceItem />
+                <CatVetServiceItem />
             </div>
         </section>
     );

@@ -23,7 +23,8 @@ body {
 }
 
 .bg-primary {
-    background: #EA580C;
+    background: #58B5A9;
+    border: 1px solid #F2974B;
 }
 
 .home-banner {
