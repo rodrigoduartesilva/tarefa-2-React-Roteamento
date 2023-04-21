@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import NavBar from './components/NavBar';
 import Contato from './pages/Contato';
 import Login from './pages/Login';
+import ServiceList from './components/ServiceList';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/contato' element={<Contato />} />
+        <Route path='/servicelist' element={<ServiceList />} />
       </Routes>
     </>
   );
