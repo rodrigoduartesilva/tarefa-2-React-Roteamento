@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Contato from './pages/Contato';
 import Login from './pages/Login';
 import ServiceList from './components/ServiceList';
+import CatShowerServiceItemInformation from './components/CatShowerServiceItemInformation';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/contato' element={<Contato />} />
         <Route path='/servicelist' element={<ServiceList />} />
+        <Route path='/gatomenu/:id' element={<CatShowerServiceItemInformation />} />
       </Routes>
     </>
   );

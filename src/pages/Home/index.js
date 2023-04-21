@@ -1,5 +1,4 @@
 import React from "react";
-import ServiceList from "../../components/ServiceList";
 import Welcome from "../../components/Welcome";
 
 const Home = () => {
