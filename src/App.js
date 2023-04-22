@@ -12,6 +12,7 @@ import DogShowerServiceItemInformation from './components/DogShowerServiceItemIn
 import DogGroomingServiceItemInformation from './components/DogGroomingServiceItemInformation';
 import DogVetServiceItemInformation from './components/DogVetServiceItemInformation';
 import Cadastro from './pages/Cadastro';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/dogmenu/:id' element={<DogShowerServiceItemInformation />} />
         <Route path='/dogmenu/:id' element={<DogGroomingServiceItemInformation />} />
         <Route path='/dogmenu/:id' element={<DogVetServiceItemInformation />} />
+        <Route path='/*' element={<NotFound />} />
       </Routes>
     </>
   );
