@@ -11,7 +11,7 @@ const CatVetServiceItem = () => {
                 <h1 className="text-gray-900 text-lg">Veterinário</h1>
                 <p className="text-gray-500 text-sm text-center">Serviço veterinário para seu felino. Atendimento direcionado a gatos domésticos.</p>
                 <h2 className="text-gray-900 text-2xl font-bold">R$ 200,00</h2>
-                <Button><Link to='/gatomenu/gato_service_3'>Mais Informações</Link></Button>
+                <Button><Link to='/gatomenu_/gato_service_3'>Mais Informações</Link></Button>
             </div>
         </div>
     );

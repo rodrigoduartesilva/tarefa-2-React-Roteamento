@@ -13,6 +13,7 @@ import DogGroomingServiceItemInformation from './components/DogGroomingServiceIt
 import DogVetServiceItemInformation from './components/DogVetServiceItemInformation';
 import Cadastro from './pages/Cadastro';
 import NotFound from './pages/NotFound';
+import CadSuccess from './components/CadSuccess';
 
 function App() {
   return (
@@ -24,12 +25,18 @@ function App() {
         <Route path='/cadastro' element={<Cadastro />} />
         <Route path='/contato' element={<Contato />} />
         <Route path='/servicelist' element={<ServiceList />} />
+
         <Route path='/gatomenu/:id' element={<CatShowerServiceItemInformation />} />
-        <Route path='/gatomenu/:id' element={<CatVetServiceItemInformation />} />
-        <Route path='/gatomenu/:id' element={<CatGroomingServiceItemInformation />} />
+        <Route path='/gatomenu_/:id' element={<CatVetServiceItemInformation />} />
+        <Route path='/gatomenu_i/:id' element={<CatGroomingServiceItemInformation />} />
+
         <Route path='/dogmenu/:id' element={<DogShowerServiceItemInformation />} />
-        <Route path='/dogmenu/:id' element={<DogGroomingServiceItemInformation />} />
-        <Route path='/dogmenu/:id' element={<DogVetServiceItemInformation />} />
+        <Route path='/dogmenu_/:id' element={<DogGroomingServiceItemInformation />} />
+        <Route path='/dogmenu_i/:id' element={<DogVetServiceItemInformation />} />
+
+        <Route path='/sucessoCad' element={<CadSuccess>Cadastro realizado com sucesso!</CadSuccess>} />
+        <Route path='/sucessoContact' element={<CadSuccess>Mensagem enviada com sucesso. Em breve entraremos em contato com você!</CadSuccess>} />
+        <Route path='/sucessoLogin' element={<CadSuccess>Login realizado com sucesso! Seja bem-vindo!</CadSuccess>} />
         <Route path='/*' element={<NotFound />} />
       </Routes>
     </>

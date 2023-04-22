@@ -12,7 +12,7 @@ const DogVetServiceItem = () => {
                 <h1 className="text-gray-900 text-lg">Veterinário</h1>
                 <p className="text-gray-500 text-sm text-center">Serviço veterinário para seu cão. Atendimento direcionado a cães de pequeno e médio porte.</p>
                 <h2 className="text-gray-900 text-2xl font-bold">R$ 250,00</h2>
-                <Button><Link to='/dogmenu/dog_service_3'>Mais Informações</Link></Button>
+                <Button><Link to='/dogmenu_i/dog_service_3'>Mais Informações</Link></Button>
             </div>
         </div>
     );

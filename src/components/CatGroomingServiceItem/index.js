@@ -11,7 +11,7 @@ const CatGroomingServiceItem = () => {
                 <h1 className="text-gray-900 text-lg">Tosa</h1>
                 <p className="text-gray-500 text-sm text-center">Tosa total e higiênica para seu felino. Atendimento direcionado a gatos domésticos.</p>
                 <h2 className="text-gray-900 text-2xl font-bold">R$ 100,00</h2>
-                <Button><Link to='/gatomenu/gato_service_2'>Mais Informações</Link></Button>
+                <Button><Link to='/gatomenu_i/gato_service_2'>Mais Informações</Link></Button>
             </div>
         </div>
     );
