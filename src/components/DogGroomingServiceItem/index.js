@@ -1,6 +1,7 @@
 import React from "react";
 import dogTosa from '../../assets/dog-grooming.svg';
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 const DogGroomingServiceItem = () => {
     return (
@@ -11,7 +12,7 @@ const DogGroomingServiceItem = () => {
                 <h1 className="text-gray-900 text-lg">Tosa</h1>
                 <p className="text-gray-500 text-sm text-center">Tosa total e higiênica para seu cão. Atendimento direcionado a cães de pequeno e médio porte.</p>
                 <h2 className="text-gray-900 text-2xl font-bold">R$ 120,00</h2>
-                <Button>Mais Informações</Button>
+                <Button><Link to='/dogmenu/dog_service_2'>Mais Informações</Link></Button>
             </div>
         </div>
     );

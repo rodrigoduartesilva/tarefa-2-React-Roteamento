@@ -34,3 +34,29 @@ body {
     background-position: center center;
     background-size: cover;
 }
+
+input {
+    all: unset;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+input:focus {
+    color: #374151;
+    border-color: #AB5737;
+}
+
+textarea {
+    all:unset;
+}
+
+textarea::placeholder {
+    color: #FFFFFF;
+}
+
+textarea:focus {
+    color: #374151;
+    border-color: #AB5737;
+}

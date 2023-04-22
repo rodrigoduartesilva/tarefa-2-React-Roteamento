@@ -11,7 +11,7 @@ const CatShowerServiceItem = () => {
                 <h1 className="text-gray-900 text-lg">Banho</h1>
                 <p className="text-gray-500 text-sm text-center">Serviço de banho para seu felino. Atendimento direcionado a gatos domésticos.</p>
                 <h2 className="text-gray-900 text-2xl font-bold">R$ 50,00</h2>
-                <Button><Link to='/gatomenu/1'>Mais Informações</Link></Button>
+                <Button><Link to='/gatomenu/gato_service_1'>Mais Informações</Link></Button>
             </div>
         </div>
     );

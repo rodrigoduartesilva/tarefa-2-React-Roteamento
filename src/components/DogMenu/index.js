@@ -1,6 +1,6 @@
 import React from "react";
 import DogShowerServiceItem from "../DogShowerServiceItem";
-import DogGroomingServiceItem from "../GodGroomingServiceItem";
+import DogGroomingServiceItem from "../DogGroomingServiceItem";
 import DogVetServiceItem from "../DogVetServiceItem";
 
 const DogMenu = () => {

@@ -1,6 +1,7 @@
 import React from "react";
 import dogBanho from '../../assets/dog-banho.png';
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 const DogShowerServiceItem = () => {
     return (
@@ -11,7 +12,7 @@ const DogShowerServiceItem = () => {
                 <h1 className="text-gray-900 text-lg">Banho</h1>
                 <p className="text-gray-500 text-sm text-center">Serviço de banho para seu cão. Atendimento direcionado a cães de pequeno e médio porte.</p>
                 <h2 className="text-gray-900 text-2xl font-bold">R$ 60,00</h2>
-                <Button>Mais Informações</Button>
+                <Button><Link to='/dogmenu/dog_service_1'>Mais Informações</Link></Button>
             </div>
         </div>
     );
